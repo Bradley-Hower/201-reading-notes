@@ -67,7 +67,7 @@ To enter a number, a numerical digit is the choice. No quotes are necessary.
 
 ### Variables
 
-Variables are how information is stored as **values**. They are important to JavaScript because this is how information is processed. It is what allows lots of data manipulation to take place. The following example is when a variable is declared - a name for the variable is set, and assigned - a value assigned thereto. The keyword used here is `let`. This is a temporary variable which can have the value updated. The other keyword option is `const`, which does not allow a value update.
+**Variables** are how information is stored as **values**. They are important to JavaScript because this is how information is processed. It is what allows lots of data manipulation to take place. The following example is when a variable is declared - a name for the variable is set, and assigned - a value assigned thereto. The keyword used here is `let`. This is a temporary variable which can have the value updated. The other keyword option is `const`, which does not allow a value update.
 
 
 ```
@@ -88,8 +88,7 @@ A *closing tag* similarly consists of an opening angle bracket, a forward slash,
 
 ![HTML Element Illustrated](https://raw.githubusercontent.com/Bradley-Hower/reading-notes/main/element-structure.png)[^1]
 
-[^1]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-
+[^1]:[^2]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 ### Attributes
 
@@ -101,7 +100,7 @@ Living within the opening tag of the element is the **attribute**, which holds i
 
 ### Difference Between <article> and <section>
 
-Article and section are similar in their functionality. They used to hold content. However, `<section>` is moreso used to hold subparts of a webpage. The `<article>` element is moreso used to hold information which can stand on its own and still make sense.
+**Article** and **section** are similar in their functionality. They used to hold content. However, `<section>` is moreso used to hold subparts of a webpage. The `<article>` element is moreso used to hold information which can stand on its own and still make sense.
 
 ### Typical Elements of a Website
 
@@ -142,16 +141,16 @@ To start to build a website, there must be a "why" in place. The key factor here
 
 ## Semantics
 
-### <h1> vs <span>
+### h1 vs span
 
-Semantical elements are what give elements their role and meaning within a web page. The browser will treat these elements accordingly. So between `<h1>` and `<span>`, the browser will automatically size the prior as a heading, while the latter is relative and dependent on other elements of a page.
+**Semantical elements** are what give elements their role and meaning within a web page. The browser will treat these elements accordingly. So between `<h1>` and `<span>`, the browser will automatically size the prior as a heading, while the latter is relative and dependent on other elements of a page.
 
 This is the advantage of semantic elements. Semantic elements take away the relative factor of an element. It also adds readability for the coder.
 
 
 ## What Requires JavaScript?
 
-There are two things that require JavaScript, storing values and APIs.
+There are two things that require JavaScript, **storing values** and **APIs**.
 
 Storing values - By storing input values from the user, the webpage becomes dynamic. This greatly increases the interactivity of a page. It also greatly increases what can be done. 
 
@@ -161,16 +160,16 @@ APIs or Application Programming Interfaces, are the plug-and-play of a webpage. 
 
 #### Browser APIs - Information pulled from the browser environment
 
-+DOM (Document Object Model) - the top-level organizer of HTML and CSS
-+Geolocation - provides GPS and IP address.
-+Canvas and WebGL - 2D and 3D graphics.
-+Audio and Video - Video feed. Web camera, microphone inputs.
++ DOM (Document Object Model) - the top-level organizer of HTML and CSS
++ Geolocation - provides GPS and IP address.
++ Canvas and WebGL - 2D and 3D graphics.
++ Audio and Video - Video feed. Web camera, microphone inputs.
   
 #### Third-party APIs - Code from Other Sites
-+Examples:
-+Twitter feed
-+Maps
-+Analytics
+ Examples:
++ Twitter feed
++ Maps
++ Analytics
   
 
 ## Adding JavaScript
@@ -179,7 +178,7 @@ To add JavaScript to a web page, the code can either be internal to the HTML doc
 
 ### Internal
 
-To add internally, the JavaScript code can be inserted in between two script element tags.
+To add *internally*, the JavaScript code can be inserted in between two script element tags.
 
 ```
 <script>
@@ -189,7 +188,7 @@ To add internally, the JavaScript code can be inserted in between two script ele
 
 ### External
 
-For adding externally, there are two components. The first is the line referencing the source JavaScript file. The second is the JavaScript file itself.
+For adding *externally*, there are two components. The first is the line referencing the source JavaScript file. The second is the JavaScript file itself.
 
 
 #### HTML File
@@ -202,13 +201,15 @@ The following line of script is normally found in the head section of the HTML f
 
 ##### JavaScript File
 
+Here, JavaScript exists independently.
+
 ```
 alert("Hello World");
 ```
 
 #### Location Inserts
 
-Note, by cleverly writing JavaScript code to also contain HTML therewithin, JavaScript can be targeted within an HTML page by containing a JavaScript function call within script elements. Here is an example:
+Note, by cleverly writing JavaScript code to also contain HTML therewithin, JavaScript can be targeted within an HTML page by containing a JavaScript function call, wrapped with script elements. Here is an example:
 
 ```
 <script>
@@ -217,3 +218,6 @@ Note, by cleverly writing JavaScript code to also contain HTML therewithin, Java
 ```
 
 ## Things I want to know more about
+
+Perhaps more about protocols. That is something I have little knowledge of. 
+
