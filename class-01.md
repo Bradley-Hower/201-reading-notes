@@ -2,7 +2,7 @@
 
 ## Components of a Web Page
 
-Websites are probably the funniest part of the internet. But, in a basic sense, how do they work?
+Websites are probably the best part of the internet. But, in a basic sense, how do they work?
 
 ### HTTP - A Poem
 
@@ -13,25 +13,33 @@ I want to go to my favorite website,
 but how does my computer know where to go?
 
 My internet service provider has a set DNS server inside,
-there it will find, readmymind... .com
+
+there it will find, thebrighterside.news
+
 This is how it will know where to go.
 
 The name of the site isn't enough, as HTTP uses numbers,
+
 that is where the DNS server works wonders.
 
 It pulls up my site's IP address. And shortly I can see,
+
 my favorite website via transfer protocols HTTP and ICP/IP.
 
 TCP/IP is the outermost wrapper,
+
 and inside is the HTTP, looking all dapper.
 
 Once my favorite site's server say, "200 OK",
+
 All the beautiful data packets, small chunks, of the website files,
 are on their way.
 
 My browser receives them,
-ney, it needs them,
-to display my favorite site.
+
+Nay, it needs them.
+
+To display my favorite site.
 
 ### Parsing of HTML, CS, and JS Files
 
@@ -43,7 +51,7 @@ The browser then starts generating structures. The browser generates an in-memor
 
 In building this DOM tree with CSS styles and JavaScript scripts, an output is created on the user's screen.
 
-### Finding Images to Add to a Website
+### Adding Images to a Website
 
 When adding images to a website, it is important to compliant with copyright laws. To comply, an easy way is to search for images using a *Creative Commons Licensed* search option. This option is available on Google.
 
@@ -51,7 +59,11 @@ When adding images to a website, it is important to compliant with copyright law
 
 To create a string in JavaScript, text needs to be in quotes or apostrophes, preferably apostrophes when possible.
 
+`let varone = "Hello world"`
+
 To enter a number, a numerical digit is the choice. No quotes are necessary.
+
+`let vartwo = 22`
 
 ### Variables
 
@@ -76,7 +88,8 @@ A *closing tag* similarly consists of an opening angle bracket, a forward slash,
 
 ![HTML Element Illustrated](https://raw.githubusercontent.com/Bradley-Hower/reading-notes/main/element-structure.png)[^1]
 
-[^1][^2][source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)]
+[^1]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+
 
 ### Attributes
 
