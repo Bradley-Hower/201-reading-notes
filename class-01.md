@@ -88,7 +88,8 @@ A *closing tag* similarly consists of an opening angle bracket, a forward slash,
 
 ![HTML Element Illustrated](https://raw.githubusercontent.com/Bradley-Hower/reading-notes/main/element-structure.png)[^1]
 
-[^1]:[^2]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^1]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^2]: Image Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 ### Attributes
 
@@ -110,7 +111,7 @@ A website typically consists of the following:
 The top-most bar which sits at the top of a page. Typically holds the logo, a search bar, and perhaps a few other key navigation buttons.
 
 #### Navigation Bar
-This functions much like the index of the website. It is the mode by which a user can easily move around to other pages. A lot of times navigations are organized into menus and submenus. In more recent years, there has been a vast simplification of navigations for ease of use for users. 
+This functions much like the index of the website. It is the mode by which a user can easily move around to other pages. A lot of times navigations are organized into menus and submenus. In more recent years, there has been a vast simplification of navigations for ease of use for users.
 
 #### Main Content
 This is what the user came for. Entertainment and information. Article texts, images, and videos are placed here.
