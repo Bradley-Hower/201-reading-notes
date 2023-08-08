@@ -135,6 +135,31 @@ Semantical elements are what give elements their role and meaning within a web p
 
 This is the advantage of semantic elements. Semantic elements take away the relative factor of an element. It also adds readability for the coder.
 
+
+## What Requires JavaScript?
+
+There are two things that require JavaScript. Storing values and APIs.
+
+Storing values - By storing input values from the user, the webpage becomes dynamic. This greatly increases the interactivity of a page. It also greatly increases what can be done. 
+
+### APIs
+
+APIs or Application Programming Interfaces, are the plug-and-play of a webpage. APIs are what allow other mapped data inputs, applications and more.
+
+#### Browser APIs - Information pulled from browser environment
+
++DOM (Document Object Model) - the top level organizer of HTML and CSS
++Geolocation - provides GPS and IP address.
++Canvas and WebGL - 2D and 3D graphics.
++Audio and Video - Video feed. Web camera, microphone inputs.
+	
+#### Third-party APIs - Code from Other Sites
++Examples:
++Twitter feed
++Maps
++Analytics
+	
+
 ## Adding JavaScript
 
 To add JavaScript to a web page, the code can either be internal to the HTML document, or it can be external as a JavaScript file. Considerationg to stage of interpretation should be given. Referring to code which has not been loaded in will generate errors.
