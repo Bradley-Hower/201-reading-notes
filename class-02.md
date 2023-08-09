@@ -112,7 +112,7 @@ The purpose of the "else if" statement is to run more than two possible scenario
 
 `<=` less than or equal to `>=` greater than or equal to
 
->What is the difference between the logical operator '&&' and '||'?
+>What is the difference between the logical operator `&&` and `||`?
 
 The use of `&&` is to chain together multiple expressions. This allows the coder to avoid typing out a bunch "else if" statements, and instead group them as one. The `||` is used to chain two more expressions, however, unlike `&&` where all need to result in "True", for the use of `||`, only one needs to be true.
 
