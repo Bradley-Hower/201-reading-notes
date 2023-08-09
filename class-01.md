@@ -222,3 +222,4 @@ Note, by cleverly writing JavaScript code to also contain HTML therewithin, Java
 
 Perhaps more about protocols. That is something I have little knowledge of. 
 
+
