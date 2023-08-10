@@ -85,7 +85,7 @@ Remainder assignment - `x %= f()` = `x = x % f()`
 
 Exponentiation assignment - `x **= f()` =  `x = x ** f()`
 
-What happens when we mix data types? If there is a string, a boolean, and a number, the boolean is ignored and the expression evaluates to a string.
+What happens when we mix data types? In the below example there is a string, a boolean, and a number. The boolean `false` is evaluated as 0, and when combined with a string the final expression evaluates to a string. This is because 0 + 10 = 10. And when combining strings and numbers, it evluates to a string. If the boolean was `true`, it would be evaluated as 1 when being combined with 10.
 
 For example:
 
