@@ -54,45 +54,55 @@ Under the alternative box model, height and width are set to the total outside, 
 
 ## JS - Arrays, Operators, Expressions, Conditionals, and Loops
 
+By understanding these concepts well, JavaScript functionality is vastly expanded.
+
 ### Arrays
 
-What data types can you store inside of an Array?
-Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+The different data types which can be stored in an array are numbers, strings, objects and other arrays. Also, array can hold a mix of these different data types. 
 
-Example:
+For example, the following is a valid array:
 
- const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];
+ `const people = [['pete', 32, 'librarian', null], ['Smith', 40, 'accountant', 'fishing:hiking:rock_climbing'], ['bill', null, 'artist', null]];`
 
+To access any value therein, we can use the following:
 
+`people[<index number>]`
 
+Index numbers begin with `0` and multidimentional arrays can be access with a secondary array number.
+For example, to access 'librarian', we can use `people[0][1]`.
 
 ### Operators
 
-List five shorthand operators for assignment in javascript and describe what they do.
+Here are five shorthand operators:
+
+Addition assignment - `x += f()` = `x = x + f()`
+Subtraction assignment - `x -= f()` = `x = x - f()`
+Multiplication assignment - `x *= f()` = `x = x * f()`
+Division assignment - `x /= f()` = `x = x / f()`
+Remainder assignment - `x %= f()` = `x = x % f()`
+Exponentiation assignment - `x **= f()` =  `x = x ** f()`
+
 Read the code below and evaluate the last expression and explain what the result would be and why.
 
-Example: 
+What happens when we mix data types? If there is a string, a boolean and a number, the boolean is ignored and the expression evaluates to a string.
 
+For example:
+
+```
  let a = 10;
  let b = 'dog';
  let c = false;
 
  // evaluate this
  (a + c) + b;
+```
 
-
-
+This evaluates to "10dog".
 
 ### Conditional Statements
 
-Describe a real world example of when a conditional statement should be used in a JavaScript program.
-
-
-
+ Conditional statements are great for running through a tree of scenarios. This is accomplished by using, if, else if, and else statements. The first condition is the if statement, any subsequent condition is the else-if statement, and the else is the final catch-all if none of the others apply. Through ever conditional statement, it is being evaluated if the statement is true. If it is, the system stops and no other conditional statement in the tree needs to be evaluated.
 
 ### Loops
 
-Give an example of when a Loop is useful in JavaScript.
-
-
-
+An example of when a Loop is useful in JavaScript is when something needs to be iterated multiple times. A simple example of this is taking a list of 50 numbers and removing all the numbers that are greater than 10. To write the code for this without using a loop would require one to write 50 conditional statements, one for each number in the array! Loops are useful indeed.
