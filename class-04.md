@@ -62,3 +62,6 @@ I think being able to solve a problem together with a co-worker can be very frui
 
 And by working together as a mastermind, a rapid exchange of ideas can occur, as they come to mind. Being that they occur right within the context of relevance, it boosts productivity in communication.
 
+## Things I want to Learn more About
+
+Understanding how each browser differs in its interpretation of CSS I think would be really helpful to know. It would allow me to know how to avoid writing code that alienates people. I do acknowledge that the CSS reset helps cut out a lot of differences.
