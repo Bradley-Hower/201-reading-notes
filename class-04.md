@@ -34,7 +34,7 @@ Positioning allows for normal document flow (default flow) to be overridden. The
 
 #### Absolute Positioning
 
-**Absolute positioning** removes the element from the rest of the page. Think of it as being on its own layer. Any positioning tags (`top`, `bottom`, `left`, and `right`) will now act according to the containing element. And remember, there is always a containing element, even if it is the `<html>` tags. This containing element is known as the **initial containing block**. By changing where the element is located within the HTML document relative to other element tags, the **positing context** is changed. The advantages of absolute positioning are that there is a lot more control over where the element goes. It keeps elements within containers but allows for more control within those containers. Moreover, layering can occur.
+**Absolute positioning** removes the element from the rest of the page. Think of it as being on its own layer. Any positioning tags (`top`, `bottom`, `left`, and `right`) will now act according to the containing element. And remember, there is always a containing element, even if it is the `<html>` tags. This containing element is known as the **initial containing block**. By changing where the element is located within the HTML document relative to other element tags, the **positing context** is changed. The advantages of absolute positioning are that there is a lot more control over where the element goes. It keeps elements within containers but allows for more control within those containers. Moreover, layering can occur. How? Other elements ignore an absolutes existance. They do not move relative to it as they treat it as being on another layer.
 
 #### Fixed Positioning
 
