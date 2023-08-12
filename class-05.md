@@ -52,23 +52,23 @@ Image types:
 
 **WebP** - Animated and stills. Great compression. Higher color depths.
 
-Which is the best? If you want Firefox support, Webp. Otherwise, AVIF. For a fallback, PNG. To implement a fallback, use the `<picture>` tag and have your two sources, in order of priority. A third source can be added to the source attribute in image tag, the image tag being third, after the prior two source tags.
+Which is the best? The type of picture or animated clip is not significant. Screenshot, photo, animated clip, or art, the answers are all the same. If you want Firefox support, WebP. Otherwise, AVIF. For a fallback on still pictures, PNG. The fallback for an animated clip, GIF. To implement a fallback, use the `<picture>` tag and have your two sources, in order of priority. A third source can be added to the source attribute in image tag, the image tag being third, after the prior two source tags.
 
 ```
 <picture>
-  <source srcset="graph1.svg" type="image/svg+xml" />
-  <source srcset="graph1.png" type="image/png" />
+  <source srcset="bouncingball.avif" type="image/AVIF" />
+  <source srcset="bouncingball.png" type="image/WebP" />
   <img
-    src="graph1.gif"
+    src="bouncingball.gif"
     width="900"
     height="500"
-    alt="Graph of survey results" />
+    alt="Clip of 3D animated red ball bouncing" />
 </picture>
 ```
 
 What is the difference between a GIF image and an SVG image?
 
-A gif image is an old image format with lower quality. An SVG image is a vector image. What is a vector image? It is an image which is generated strickly by coordinates. SVG is great graphical images.
+A gif image is an old animated clip format. It is of relatively lower quality. An SVG image is a vector image. What is a vector image? It is an image which is generated strickly by coordinates. SVG is great for graphical images.
 
 #### Garbage Image Formats
 
@@ -78,7 +78,7 @@ The following image formats should never be used to due a lack of support and lo
 Color and typeface add lot of character to a page. A lot. What are the ways to implement such?
 
 ### Color
-When speaking of color, there are two primary properties. The text color (foreground) and the background color. The text color gives all the ascii characters color. The background color is what colors the element that the text resides in. 
+When speaking of color, there are two primary properties. The text color (foreground) and the background color. The text color gives all the ascii characters color. The background color is what colors the element that the text resides in.
 
 If you one was to start coloring a website, they first should pick a nice set of colors that have complementary contrasts, 2-4 colors is sufficient. It is important to ensure these colors can be seen by all. Thus, using Lighthouse analysis can assist. Next, chose a dominant color to color the major elements, the big ones. Next, choose the secondary color, which will color the other elemnents. These elements should be something more stationary, such as banners or navigation. The last color is good for accenting and is optional. It can be used to color borders and perhaps text. Secondary accent color can also fill this role.
 
@@ -86,16 +86,16 @@ If you one was to start coloring a website, they first should pick a nice set of
 
 Typeface is what dictates the styling and layout of text. There are various ways to change the style.
 
-Font. What to consider? When chosing a font via the `font-family` property, it is important to try to choose something that is reliably on other machines, *web safe fonts*. Otherwise, the browser default will take over. (Cssfontstack.com)[https://www.cssfontstack.com/] is a great resource to know what font is support across macOS and Windows. Consider stacking fonts in order of priority in case of failure.
+Font. What to consider? When chosing a font via the `font-family` property, it is important to try to choose something that is reliably on other machines, *web safe fonts*. Otherwise, the browser default will take over. (Cssfontstack.com)[https://www.cssfontstack.com/] is a great resource to know what fonts are supported across macOS and Windows. Consider stacking fonts in order of priority in case of failure.
 
 The five generic font names:
 
-Predictable
+Predictable Output
 + Serif
 + Sans-serif
 + Monospace
 
-Unpredictable
+Unpredictable Output
 + Cursive
 + Fantasy
 
@@ -104,7 +104,7 @@ Unpredictable
 **font-style** - normal, italic, and oblique (simulated italic).
 **text-transform** - none, uppercase, lowercase, capitalize, full-width.
 
-**letter-spacing** - sets spacing around letters. Alternatively, spacing can be achieved by setting `text-transform` to full-width so to fill the element. Another option is to use the `font-stretch` property.
+**letter-spacing** - sets spacing around letters.
 **word-spacing** - sets spacing around words.
 
 To add spacing to an h1 element, other than letter-spacing described above, alternatively, spacing can be achieved by setting `text-transform` to full-width so to fill the element. Another option is to use the `font-stretch` property.
