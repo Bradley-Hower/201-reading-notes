@@ -86,7 +86,7 @@ If one were to start coloring a website, the person should first pick a nice set
 
 Typeface is what dictates the styling and layout of text. There are various ways to change the style.
 
-Font. What is there to consider? When choosing a font via the `font-family` property, it is important to try to choose something that is reliably found on other machines, *web safe fonts*. Otherwise, the browser default will take over. [Cssfontstack.com](https://www.cssfontstack.com/) is a great resource to know what fonts are supported across macOS and Windows. Consider stacking fonts in order of priority in case of failure.
+Font. What is there to consider? When choosing a font via the `font-family` property, it is important to try to choose something that is reliably found on other machines, *web safe fonts*. Otherwise, the browser default will take over. Font-family allows use to stack font styles in case a font style is not present on the user's computer. [Cssfontstack.com](https://www.cssfontstack.com/) is a great resource to know what fonts are supported across macOS and Windows. Consider stacking fonts in order of priority in case of failure.
 
 The five generic font names:
 
