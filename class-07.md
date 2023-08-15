@@ -3,8 +3,6 @@
 
 ## Domain Modeling
 
-why we need domain modeling.
-
 A domain model creates a conceptual framework for a feature. This serves well when communicating between business folks and programming management.
 
 1. When creating a model with multiple instances, create a single object which will hold a constructor function. This constructor function is what will hold properties.
@@ -33,14 +31,12 @@ Some table semantic elements include:
 + `<colgroups>` - Holds the `<col>` elements
 + `<col />` - Allows for CSS formatting to columns
 
-
 ## Constructors
 
 A constructor is a model-based object. It allows for multiple instances of instantiation to be set, running off of the same object. This allows for massive repurposing.
 
 ### this - Object Literal vs Constructor
 
-How does the term this differ when used in an object literal versus when used in a constructor?
 In an object literal, `this` is used simply to refer to the object by name and pull properties or functions from there. In constructors, `this` serves the purpose of **initializing** a property. This allows a parameter to be pulled in and applied, creating properties from it.
 
 ### Prototypes
