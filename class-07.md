@@ -35,16 +35,19 @@ Some table semantic elements include:
 
 ## Constructors
 
-What is a constructor and what are some advantages to using it?
+A constructor is a model-based object. It allows for mutlple instances of instantiation to be set, running off of the same object. This allows for massive repurposing.
 
 ### this - Object Literal vs Constructor
 
 How does the term this differ when used in an object literal versus when used in a constructor?
+In an object literal, `this` is used to simply to refer to the object by name and pull properties or function from there. In constructors, `this` serves the purpose of **initializing** a property. This allows a parameter to be pulled in and applied, creating properties from it.
 
 ### Prototypes
 
-Explain prototypes and inheritance via an analogy from your previous work experience.
-NOTE: This is a very common front end developer interview question
+Prototypes are like subject matter experts for a department. These folks do one thing and they do it well. Anytime they need to be called on within the department, they can. This is **prototype**. Prototype allows us to call upon that method.
 
+Ineritance is similar to say, "let me has my co-worker".
 
 ## Things I want to know more about
+
+How prototyping really works is still a bit confusing to me, although I know what it does.
