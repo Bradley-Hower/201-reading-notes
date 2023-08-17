@@ -1,4 +1,3 @@
-
 # *Course 201, Entry 7: Object-Oriented Programming, HTML Tables*
 
 ## Domain Modeling
