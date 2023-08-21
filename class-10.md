@@ -31,3 +31,7 @@ A debugger tool allows one to isolate a problem. It is a diagnostic tool that al
 ### Call Stack
 
 The **call stack** provides a readout of what code ran up to the breakpoint. 
+
+## Things I want to know more about
+
+How to best use the debugger tools for the the most effective outcomes.
