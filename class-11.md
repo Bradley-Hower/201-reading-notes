@@ -99,3 +99,7 @@ src="fluffydog_1000.png"
 ```
 
 To properly implement accessible content that is not a bandwidth strain on mobile users, it is important to only load content that is useful to that user. For this reason, using `srcset` is a better option than CSS. With just CSS or perhaps a JavaScript solution, all content is loaded upfront and the proper size is served to the user - a waste. However, depending on the content and the audience, some might prefer larger content anyway. Perhaps give the viewer the option to choose.
+
+## Things I want to know more about
+
+What are the most common screen size. How many image sizes are sufficient?
