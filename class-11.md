@@ -16,29 +16,29 @@ There are a number of HTML attributes. Some are arguably absolutely necessary, o
 
 src - This provides the path for the video so it can be loaded. As with other attributes with links, `src` is set equal to a link within quotes.
 
-controls - allows for playback buttons in a video. Without a built-out solution, it's necessary to include this property. Not only is important for those with audio, visual, or neurological impairments, but how annoying would it be to watch a video, miss the first five seconds, and have to watch it all over again, multiple times, just to try to figure out what that first five seconds was. Annoying!
+controls - Allows for playback buttons in a video. Without a built-out solution, it's necessary to include this property. Not only is important for those with audio, visual, or neurological impairments, but how annoying would it be to watch a video, miss the first five seconds, and have to watch it all over again, multiple times, just to try to figure out what that first five seconds was. Annoying!
 
-fallback link - anchor link within the video tags, this serves as another option for folks who don't have an updated browser to view a video. It improves accessibility. Most people don't like to include this option as it encourages content theft and besides, people should update their browsers.
+fallback link - Anchor link within the video tags, this serves as another option for folks who don't have an updated browser to view a video. It improves accessibility. Most people don't like to include this option as it encourages content theft and besides, people should update their browsers.
 
-width and height - similar to images, is a good placeholder in case the web page does not load entirely.
+width and height - Similar to images, is a good placeholder in case the web page does not load entirely. Addtionally, text within paragraph tags, nested within the video tags, can give us some information, likeunto an alt attribute.
 
-autoplay - plays video automatically upon page load.
+autoplay - Plays video automatically upon page load.
 
-loop - automatically replays a video.
+loop - Automatically replays a video.
 
-muted - turns off sound for video.
+muted - Turns off sound for video.
 
-poster - sets an image thumbnail before playing. Great for giving viewers a sense of the content.
+poster - Sets an image thumbnail before playing. Great for giving viewers a sense of the content.
 
-preload - buffers files, with the following options:
+preload - Buffers files, with the following options:
 
-1. None. no buffering. does not buffer the file.
-2. Auto. Buffering on. buffers the media file.
+1. None. No buffering. Does not buffer the file.
+2. Auto. Buffering on. Buffers the media file.
 3. Metadata. Only buffers metadata.
 
 ### Subtitles
 
-Subtitles have so many use cases. Assisting the hearing impaired, assisting people who can't hear the audio clearly due to various environments and speaking situations, and lastly, people speak different languages. There are clear motivations for putting in subtitles.
+Subtitles have so many use cases. Assisting the hearing impaired, assisting people who can't hear the audio clearly due to various environments and speaker setups, and lastly, people speak different languages. There are clear motivations for putting in subtitles.
 
 With WebVTT, subtitles are easier. Coming as a .vtt file, the content of the file follows the following format:
 
@@ -57,7 +57,7 @@ Okay! Just relax, man.
 
 To implement, include the `track` tag within the video tags. The track tag holds the following attributes:
 
-kind - set equal to "subtitles", within quotes.
+kind - set equal to `subtitles`, within quotes.
 
 src - link to the .vtt file.
 
@@ -73,7 +73,7 @@ Audio and video can be a great couple. But they have to match and they have to m
 
 Unlike flex, grid allows for a lot more flexibility. Most importantly, it offers the ability to easily manipulate vertical positioning.
 
-Grid has some important components that make it work.
+Grid has some important components that make it work:
 
 Grid container - The grid container is the outline of the grid box. This is where the grid lines and items will be held.
 
