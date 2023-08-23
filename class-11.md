@@ -22,15 +22,15 @@ fallback link - Anchor link within the video tags, this serves as another option
 
 width and height - Similar to images, is a good placeholder in case the web page does not load entirely. Addtionally, text within paragraph tags, nested within the video tags, can give us some information, likeunto an alt attribute.
 
-autoplay - Plays video automatically upon page load.
+**autoplay** - Plays video automatically upon page load.
 
-loop - Automatically replays a video.
+**loop** - Automatically replays a video.
 
-muted - Turns off sound for video.
+**muted** - Turns off sound for video.
 
-poster - Sets an image thumbnail before playing. Great for giving viewers a sense of the content.
+**poster** - Sets an image thumbnail before playing. Great for giving viewers a sense of the content.
 
-preload - Buffers files, with the following options:
+**preload** - Buffers files, with the following options:
 
 1. None. No buffering. Does not buffer the file.
 2. Auto. Buffering on. Buffers the media file.
@@ -57,13 +57,13 @@ Okay! Just relax, man.
 
 To implement, include the `track` tag within the video tags. The track tag holds the following attributes:
 
-kind - set equal to `subtitles`, within quotes.
+**kind** - set equal to `subtitles`, within quotes.
 
-src - link to the .vtt file.
+**src** - link to the .vtt file.
 
-srclang - set equal to the language abbreviation within quotes. For English, it would be "en", in Spanish, "es".
+**srclang** - set equal to the language abbreviation within quotes. For English, it would be "en", in Spanish, "es".
 
-label - This provides a viewer with a clear indication of what subtitle track language is available for selection.
+**label** - This provides a viewer with a clear indication of what subtitle track language is available for selection.
 
 ### Audio and Video Short Story
 
@@ -75,11 +75,11 @@ Unlike flex, grid allows for a lot more flexibility. Most importantly, it offers
 
 Grid has some important components that make it work:
 
-Grid container - The grid container is the outline of the grid box. This is where the grid lines and items will be held.
+**Grid container** - The grid container is the outline of the grid box. This is where the grid lines and items will be held.
 
-Grid line -  Within the grid container are the lines. These vertical and horizontal crisscrossing lines which create a geographically manageable area.
+**Grid line** -  Within the grid container are the lines. These vertical and horizontal crisscrossing lines which create a geographically manageable area.
 
-Grid item - Grid items are the objects we want to move and dictate their location for.
+**Grid item** - Grid items are the objects we want to move and dictate their location for.
 
 ## Responsive Images
 
