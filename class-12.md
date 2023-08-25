@@ -58,19 +58,30 @@ The first two numbers in each parameter represent where to start, while the last
 
 ## Chart.js
 
+Charts.js is an opensouce library for charts. It offers the ability to make highly customized charts with a large number of chart types and plugins available. In addition, it has animations. Charts.js is highly integrated, being compatible with the frameworks such as  Vue, React, Svelte, and Angular.
+
+Rendering can be done to HTML5, however, CSS is not supported natively.
 
 
 Chart types:
 
++ Bar Chart
++ Bubble Chart
++ Doughnut and Pie Charts
++ Line Chart
++ Mixed Chart Types
++ Polar Area Chart
++ Radar Chart
++ Scatter Chart
 
-
-+ 
-+ 
-+ 
+![chartjs.org](chartjs.org/docs/latest/)
 
 ### Animated Charts
 
 
+
+What are some advantages to displaying data via a chart over a table?
+How could Chart.js aid your previously created applications visually?
 
 ## Things I want to know more about
 
