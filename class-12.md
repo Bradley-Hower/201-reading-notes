@@ -17,7 +17,7 @@ Unlike image elements, the canvas element needs a closing tag. This is because w
 
 ### getContext() method
 
-The `getContext()` method take jsut one argument, the context type. An example of pulling the 2D context method is as follows:
+The `getContext()` method takes just one argument, the context type. An example of pulling the 2D context method is as follows:
 
 ```
 let canvas = document.querySelector('#canvas');
@@ -26,7 +26,7 @@ let ctx = main.getContext('2d');
 
 ### 2D Drawing Context 
 
-The 2D drawing context has two main options, `fillStyle` and `strokeStyle`. These are complete using the VI quadrant for an X and Y axis coordinate.
+The 2D drawing context has two main options, `fillStyle` and `strokeStyle`. These are completed using the VI quadrant for an X and Y axis coordinate.
 
 Example: 
 
@@ -74,14 +74,11 @@ Chart types:
 + Radar Chart
 + Scatter Chart
 
-![chartjs.org](chartjs.org/docs/latest/)
+[chartjs.org](https://www.chartjs.org/docs/latest/)
 
-### Animated Charts
+Charts have some clear advantages. They are clean and easier to interpret than a table. But they are more difficult to build.
 
-
-
-What are some advantages to displaying data via a chart over a table?
-How could Chart.js aid your previously created applications visually?
+To aid me in my previous creation, a chart can be added to the Odd Duck Products lab. This will create a nice visualization of the percentage distribution.
 
 ## Things I want to know more about
 
