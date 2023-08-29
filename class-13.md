@@ -23,7 +23,7 @@ localStorage.setItem( 'cat', JSON.stringify(cat) );
 JSON.parse( localStorage.getItem( 'cat' ) ) ;
 ```
 
-## Summery
+## Summary
 
 No critical data for functionality should be stored locally, as this can not be relied on. Users can at any time clear their local data or decide to only browse in private mode. 
 
