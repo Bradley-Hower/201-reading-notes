@@ -121,15 +121,17 @@ Here, "animation-iteration-count" sets if it is a loop, and "animation-direction
 
 ## Psychological Safety
 
-*What are three key factors that contribute to psychologically safe teams?*
+Building a team that works together is important to maximize the team's effectiveness and ultimately, success. Knowing how to organize a team, conduct meetings, and generally steer team dynamics is what leads to such success. The important factor discovered by Artistotle in their research at Google illustrated that team *psychological safety* is what leads to success or failure. 
+
+**What are three key factors that contribute to psychologically safe teams?**
 
 The three factors that I saw were creating a culture of dependability, allowing freedom to explore, and the ability for people to express themselves openly. With these factors, the group can have flowing discussions.
 
-*Evaluate, with details, a previous professional setting (or team) you were in with regards to psychological safety.*
+**Evaluate, with details, a previous professional setting (or team) you were in with regards to psychological safety.**
 
 The last professional team I was on was limited in this factor. There was some ability for the leader to accept ideas and expression privately, but once in a group setting, he would shut anyone down. It seemed he was more interested in keeping norms or indicating to everyone that he is the leader. As team members, I feel dependability was good among some, poor among others.
 
-*What impact do teams that operate with a high degree of psychological safety have on their company and the team members?*
+**What impact do teams that operate with a high degree of psychological safety have on their company and the team members?**
 
 The result of operating with psychological safety is a team that is creative and productive. A team that shares ideas, knowledge, and experience is one that works as a mastermind. By fully engaging all neurons on a team, a true mastermind is created.
 
