@@ -1,5 +1,7 @@
 # *Course 201, Entry 14: Documentation, Project Selection, & Team Workflow*
 
+## CSS Transforms Transitions and Animations
+
 With the ability to change elements in form and over time, in such to be able to create animations, a lot is added to what a page can be. For any of the properties to be mentioned here, it is important to include vendor prefixes to maximize browser support. This means for each transform, transition, and animation property created, a copy for each vendor with its appropriate prefix attached should be created.
 
 Prefixes:
@@ -17,7 +19,7 @@ Example:
             transition-property: background;
 ```
 
-## CSS Transforms
+### CSS Transforms
 
 The transform property has two major settings, 2D and 3D. Among these, there are different values.
 
@@ -40,11 +42,11 @@ Scale, Translate, and Skew can be X-axis, Y-axis, or combined comma-separated no
 
 Another property for consideration when rotating on a 3D plane is *backface-visibility*. This property allows us to hide an object if it becomes fully turned around away from the screen.
 
-### Use case
+#### Use case
 
 The variations offer a lot of capabilities. The various forms could allow for responsive tabs, links, and other navigations within a page, giving a page an interesting style.
 
-## CSS Transitions
+### CSS Transitions
 
 To activate CSS styles for an element, the easiest way is to use pseudo-class elements, :hover, :focus, :active, and :target. Transitions are a morph, from one state to another. The great advantage of CSS transitions on websites is how they increase engagement. Certainly, they are dazzling. This has a positive impression on visitors.
 
@@ -96,7 +98,7 @@ Here is a popular list of alterable properties which can be used in transition-p
 
 Note, when listing multiple properties to alter, understand that the order is significant for other such properties, such as having multiple transition-duration entries.
 
-## Animations
+### Animations
 
 Unlike transitions, animations allow for multiple changes, in keyframes.
 
@@ -117,6 +119,22 @@ Example:
 
 Here, "animation-iteration-count" sets if it is a loop, and "animation-direction" determines if it is a forwards and backwards loop.
 
-## Things I want to know more about
+## Psychological Safety
 
-What kind of tools are out there which can make creating these transitions and animations easier and less manual? I can see these being very useful for any creation that I might come up with, offering some great effects to content.
+*What are three key factors that contribute to psychologically safe teams?*
+
+The three factors that I saw were creating a culture of dependability, allowing freedom to explore, and the ability for people to express themselves openly. With these factors, the group can have flowing discussions.
+
+*Evaluate, with details, a previous professional setting (or team) you were in with regards to psychological safety.*
+
+The last professional team I was on was limited in this factor. There was some ability for the leader to accept ideas and expression privately, but once in a group setting, he would shut anyone down. It seemed he was more interested in keeping norms or indicating to everyone that he is the leader. As team members, I feel dependability was good among some, poor among others.
+
+*What impact do teams that operate with a high degree of psychological safety have on their company and the team members?*
+
+The result of operating with psychological safety is a team that is creative and productive. A team that shares ideas, knowledge, and experience is one that works as a mastermind. By fully engaging all neurons on a team, a true mastermind is created.
+
+### Things I want to know more about
+
+I. What kind of tools are out there which can make creating these transitions and animations easier and less manual? I can see these being very useful for any creation that I might come up with, offering some great effects to content.
+
+II. I would like to know how many places earnestly implement the idea of psychological safety in a group. I feel it is a critical piece of good leadership. However, many leaders in my experience are lacking in leadership skills.
