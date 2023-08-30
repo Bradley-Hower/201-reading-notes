@@ -1,4 +1,4 @@
-# *Course 201, Entry 13:  Introduction to Persistence with Local Storage*
+# *Course 201, Entry 13: Introduction to Persistence with Local Storage*
 
 By principle, HTTP is **stateless**. Meaning, unlike applications, once closed, that's it, it can be cleared.
 
@@ -12,14 +12,14 @@ However, in HTML5, local storage can store any type of data. This is accomplishe
 
 ### HTML5
 
-To store data, the `localstorage` object can be used. Using `setItem()`, `getItem()`, and `removeItem()` methods, data strings can be stored, retrieved, and deleted. To store only temporarily, the `sessionStorage` object can be used instead.
+To store data, the `localstorage` object can be used. Using `setItem()`, `getItem()`, and `removeItem()` methods, data strings can be stored, retrieved, and deleted. Data is stored as name-value pairs, separated by a comma. To store only temporarily, the `sessionStorage` object can be used instead. To clear all of local storage, the empty `clear()` method can be used.
 
-To stringify any data, use `JSON.stringify()` as a wrapper for the value in the set, and `JSON.parse()` as a wrapper for the get.
+To stringify data, use `JSON.stringify()` as a wrapper for the value for the set, and `JSON.parse()` as a total wrapper for the get.
 
 Example:
 
 ```
-localStorage.setItem( 'cat', JSON.stringify(cat) );
+localStorage.setItem( 'cat', JSON.stringify(catdata) );
 JSON.parse( localStorage.getItem( 'cat' ) ) ;
 ```
 

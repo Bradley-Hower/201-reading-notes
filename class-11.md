@@ -1,4 +1,4 @@
-# *Course 201, Entry 11:  Audio, Video, Images*
+# *Course 201, Entry 11: Audio, Video, Images*
 
 The web wouldn't be much without basic media content. Implementation is key though. Considerations should also be taken into account for accessibility. Maximizing accessibility maximizes an audience.
 

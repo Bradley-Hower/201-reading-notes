@@ -1,4 +1,4 @@
-# *Course 201, Entry 12:  Chart.js, Canvas*
+# *Course 201, Entry 12: Chart.js, Canvas*
 
 Graphics and charts offer a lot of value for a page. Via Canvas and Chart.js, pages can be amplified in their delivery. 
 
