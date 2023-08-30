@@ -1,6 +1,6 @@
 # *Course 201, Entry 14: Documentation, Project Selection, & Team Workflow*
 
-With the ability to change elements in form and over time such to create animations, a lot is added to what a page can be. For any of the properties to be mentioned here, it is important to include vendor prefixes to maximize browser support. This means for each transfrom, transition, and animation property created, a copy for each vendor with its appropriate prefix attached should be created.
+With the ability to change elements in form and over time, in such to be able to create animations, a lot is added to what a page can be. For any of the properties to be mentioned here, it is important to include vendor prefixes to maximize browser support. This means for each transform, transition, and animation property created, a copy for each vendor with its appropriate prefix attached should be created.
 
 Prefixes:
 
@@ -38,11 +38,11 @@ Scale, Translate, and Skew can be X-axis, Y-axis, or combined comma-separated no
 + Scale (Ratio of 1)
 + Translate (pixels and percentage)
 
-Another property for consideration when rotation on a 3D plane is *backface-visibility*. This property allows us to hide an object if it becomes fully turned around away from the screen.
+Another property for consideration when rotating on a 3D plane is *backface-visibility*. This property allows us to hide an object if it becomes fully turned around away from the screen.
 
 ### Use case
 
-The variations offer a lot of cababilities. The various forms could allow for responsive tabs, links, and other navigations within a page, giving a page an interesting style.
+The variations offer a lot of capabilities. The various forms could allow for responsive tabs, links, and other navigations within a page, giving a page an interesting style.
 
 ## Transitions
 
@@ -117,6 +117,8 @@ Example:
 
 Here, "animation-iteration-count" sets if it is a loop, and "animation-direction" determines if it is a forwards and backwards loop.
 
-
+The great advantage of CSS transitions on websites is how they increase engagement. Certainly, they are dazzling. This has a positive impression on visitors.
 
 ## Things I want to know more about
+
+What kind of tools are out there which can make creating these transitions and animations easier and less manual? I can see these being very useful for any creation that I might come up with, offering some great effects to content.
