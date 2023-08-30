@@ -44,9 +44,9 @@ Another property for consideration when rotating on a 3D plane is *backface-visi
 
 The variations offer a lot of capabilities. The various forms could allow for responsive tabs, links, and other navigations within a page, giving a page an interesting style.
 
-## Transitions
+## CSS Transitions
 
-To activate CSS styles for an element, the easiest way is to use pseudo-class elements, :hover, :focus, :active, and :target. Transitions are a morph, from one state to another.
+To activate CSS styles for an element, the easiest way is to use pseudo-class elements, :hover, :focus, :active, and :target. Transitions are a morph, from one state to another. The great advantage of CSS transitions on websites is how they increase engagement. Certainly, they are dazzling. This has a positive impression on visitors.
 
 Types of transitions:
 
@@ -55,7 +55,7 @@ Types of transitions:
 + transition-timing-function
 + transition-delay
 
-Using `transition` as shorthand, all of these can be combined into one, in order, separated by a space.
+Using `transition` as shorthand, all of these can be combined into one, in the aforementioned order, each separated by a space.
 
 Here is a popular list of alterable properties which can be used in transition-property:
 
@@ -94,7 +94,7 @@ Here is a popular list of alterable properties which can be used in transition-p
 + word-spacing
 + z-index
 
-Note, when listing multiple properties to alter, understand that the order is significant for other such properties such as transition-duration.
+Note, when listing multiple properties to alter, understand that the order is significant for other such properties, such as having multiple transition-duration entries.
 
 ## Animations
 
@@ -116,8 +116,6 @@ Example:
 ```
 
 Here, "animation-iteration-count" sets if it is a loop, and "animation-direction" determines if it is a forwards and backwards loop.
-
-The great advantage of CSS transitions on websites is how they increase engagement. Certainly, they are dazzling. This has a positive impression on visitors.
 
 ## Things I want to know more about
 
