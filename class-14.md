@@ -121,7 +121,7 @@ Here, "animation-iteration-count" sets if it is a loop, and "animation-direction
 
 ## Psychological Safety
 
-Building a team that works together is important to maximize the team's effectiveness and ultimately, success. Knowing how to organize a team, conduct meetings, and generally steer team dynamics is what leads to such success. The important factor discovered by Artistotle in their research at Google illustrated that team *psychological safety* is what leads to success or failure. 
+Building a team that works together is important to maximize the team's effectiveness and ultimately, success. Knowing how to organize a team, conduct meetings, and generally steer team dynamics is what leads to such success. The important factor discovered by Artistotle in their research at Google illustrated that team *psychological safety* is what leads to success or failure.
 
 **What are three key factors that contribute to psychologically safe teams?**
 

@@ -12,7 +12,7 @@ However, in HTML5, local storage can store any type of data. This is accomplishe
 
 ### HTML5
 
-To store data, the `localstorage` object can be used. Using `setItem()`, `getItem()`, and `removeItem()` methods, data strings can be stored, retrieved, and deleted. Data is stored as name-value pairs, separated by a comma. To store only temporarily, the `sessionStorage` object can be used instead. To clear all of local storage, the empty `clear()` method can be used.
+To store data, the `localstorage` object can be used. Using `setItem()`, `getItem()`, and `removeItem()` methods, data strings can be stored, retrieved, and deleted. Data is stored as key-value pairs, separated by a comma. To store only temporarily, the `sessionStorage` object can be used instead. To clear all of local storage, the empty `clear()` method can be used.
 
 To stringify data, use `JSON.stringify()` as a wrapper for the value for the set, and `JSON.parse()` as a total wrapper for the get.
 
